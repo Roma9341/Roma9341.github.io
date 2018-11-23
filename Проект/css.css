@@ -1,0 +1,248 @@
+.header {
+    background-color: #4d4d4d;
+    width:auto;
+    height: 130px;
+}
+.logotype img{width: 250px;
+height: 130px;
+float:left;}
+.navbar{
+    background-color: #333333;
+    width: auto;
+    height: 80px;
+    
+    
+}
+.navbar a{
+  float:right;
+    padding: 10px 40px;
+    color: gray;
+    text-decoration: none;
+
+}
+body {
+    font-family:'Roboto Regular', arial;
+}
+.header {
+    background-color: #4d4d4d;
+    width:auto;
+    height: 130px;
+}
+.logotype img{width: 250px;
+height: 130px;
+float:left;}
+.navbar{
+    background-color: #333333;
+    width: auto;
+    height: 80px;
+    
+    
+}
+.navbar a{
+  float:right;
+    padding: 10px 40px;
+    color: gray;
+    text-decoration: none;
+
+}
+.navbar2 ul{
+    
+}
+}
+body {
+    font-family:'Roboto Regular', arial;
+}
+.navbar2 {
+			   height: 50px;
+			    background-color: gray;
+			}
+			
+			/* убираем отступы и поля, а также list-style для "ul", 
+			 * и добавляем "position:relative" */
+			.navbar2 ul {
+			    padding:0;
+			    margin:0px;
+			    list-style: none;
+			    position: relative;
+			    }
+			
+			/* применяем inline-block позиционирование к элементам навигации */
+			.navbar2 ul li {
+			    margin: 0px -7px 0 0;
+			    display:inline-block;
+			    background-color:gray;
+			    }
+			
+			/* стилизуем ссылки */
+			.navbar2 a {
+			    display:block;
+			    padding:0 10px;
+			    color:#FFF;
+			    font-size:20px;
+			    line-height: 50px;
+			    text-decoration:none;
+			}
+			
+			/* изменяем цвет фона при наведении курсора */
+			.navbar2 a:hover {
+			    background-color: orangered;
+		}
+.navbar2 ul ul {
+			    display: none;
+			    position: absolute;
+			    top: 100%;
+			}
+			
+			/* отображаем выпадающий список при наведении */
+			.navbar2 ul li:hover > ul {
+			    display:inherit;
+			}
+			
+			/* первый уровень выпадающего списка */
+			.navbar2 ul ul li {
+			    min-width:170px;
+			    float:none;
+			    display:list-item;
+			    position: relative;
+			}
+.a123 {background: url(Images/body.jpg);
+    width: 1503px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 
+Первичные стили:
+С ними работает слайд шоу
+*/
+
+/*
+essential styles:
+these make the slideshow work
+*/
+#slides{
+    position: relative;
+    height: 500px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+
+
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+.slide{
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    text-decoration: none;
+    color:aquamarine;
+    border: 6px solid #333333; /* Параметры границы */
+    background: #fc3; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+
+.slide:nth-of-type(1){
+    background: url(Images/smart.jpg);
+            background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide:nth-of-type(2){
+    background: url(Images/nout.jpg);
+            background-repeat: no-repeat;
+    background-size: auto;
+}
+.slide:nth-of-type(3){
+    background: url(Images/gameы.jpg);
+    background-repeat: no-repeat;
+    background-size: 33%;
+}
+.slide:nth-of-type(4){
+    background: blue;
+}
+.slide:nth-of-type(5){
+    background: purple;
+}
+.flex-container {
+  display: box;
+  display: flex;
+  }
+/* Decorations
+-------------------- */
+
+.flex-container {
+  padding: 10px;
+    }
+.flex-item {width:380px;
+    height: 100px;
+  margin: 0px;
+  padding: 60px;
+  background: tomato;
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  }
+#flex1{background: url(Images/flex%20games.jpg);
+background-size: 94%;
+}
+#flex2{
+    background: url(Images/flex2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#flex3{
+    background: url(Images/nout.jpg);
+    background-size: 100%;
+        background-repeat: no-repeat;
+
+}
+/*Стили для footer*/
+footer{
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background-color: #333333;
+    border-top: 2px solid aqua;
+}
+footer #social{
+    float:left;
+    width: 50%;
+}
+footer #social img{
+    width: 50px;
+    height 50px;
+    float: left;
+    margin-right: 5px;
+}
+footer #rights{
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 1.1em;
+    color:aqua;
+}
